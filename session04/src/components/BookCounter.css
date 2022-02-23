@@ -1,0 +1,21 @@
+body {
+  background-color: #f0f7f4;
+}
+
+.booklist {
+  background-color: #f0f7f4;
+}
+/* class="booklist" .... code not needed yet? */
+h1 {
+  color: #32292f;
+}
+
+button {
+  color: #70abaf;
+  text-transform: uppercase;
+}
+
+li {
+  color: red;
+  list-style: ;
+}
