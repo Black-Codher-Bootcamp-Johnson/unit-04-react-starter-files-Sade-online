@@ -1,6 +1,3 @@
-
-
-
 import React from 'react';
 
 function Book (props) {
@@ -21,7 +18,7 @@ const { id,
    <p> {authors} </p>
    <p> {description} </p>
    <section> {retailPrice ? retailPrice.amount : 'No price define'}</section>
-   <button>Add+</button>
+   <button onClick={()=>props.onClick()}>Add To Cart</button>
 
    </div>
   </div>

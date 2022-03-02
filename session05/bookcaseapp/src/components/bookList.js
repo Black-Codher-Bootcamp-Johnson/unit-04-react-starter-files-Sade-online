@@ -2,9 +2,9 @@ import React from "react";
 import Book from './Book.js';
 
 const BookList = (props) => {
-    const { books } = props;
+    const { books, addBook } = props;
 
-    return books.map(book => <Book key={book.id} book={book} />)
+    return books.map(book => <Book onClick ={()=>addBook(book.volumeInfo.title)}  key={book.id} book={book} />)
 }
 
 export default BookList;
