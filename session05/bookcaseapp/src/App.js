@@ -11,5 +11,6 @@ function App() {
 export default App;
 
 
+// old code for individual component rather than as a whole
 // return books.map(bookItem => <Book
-//   book={bookItem}/>);
+// book={bookItem}/>);
