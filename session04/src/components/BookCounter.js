@@ -7,7 +7,7 @@ const BookCounter = (props) => {
     <main className='booklist'>
       <h2>{props.library.name}'s Books</h2>
       <button onClick={() => props.refreshBooks()}>Refresh Books!</button>
-      {props.library.books.map((book) => (<div><ul><li>{book.title}</li></ul></div>))}
+      {props.library.books.map((book) => (<div><ul><li>{book.volumeInfo.title}<br/>{book.volumeInfo.description}</li></ul></div>))}
     </main>
   );
 }
